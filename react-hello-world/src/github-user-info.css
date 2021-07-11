@@ -1,0 +1,24 @@
+.github-user-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #ccc;
+  background-color: #141414;
+  border-radius: 1rem;
+  margin: 2rem;
+  padding: .5rem 1rem;
+}
+.github-user-card {
+    transition: all .2s;
+}
+.github-user-card:hover {
+    box-shadow: 0 0 1rem teal;
+}
+.github-user-card a:link,
+.github-user-card a:visited {
+    color: #ccc;
+    text-decoration: none;
+}
+.github-user-card a:hover {
+    color: teal;
+}
